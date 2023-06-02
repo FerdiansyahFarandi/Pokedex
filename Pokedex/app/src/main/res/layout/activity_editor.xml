@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditorActivity">
+
+    <ImageView
+        android:id="@+id/backgroundputih"
+        android:layout_width="500dp"
+        android:layout_height="900dp"
+        app:srcCompat="@android:drawable/screen_background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="359dp"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="   Email"
+        android:textColor="#7C7C7C"
+        android:textColorHint="#7C7C7C"
+        android:background="#16000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="362dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="   Name"
+        android:textColorHint="#7C7C7C"
+        android:background="#16000000"
+        android:textColor="#7C7C7C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="218dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#40C4FF"
+        android:text="Save"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="587dp"
+        android:layout_height="103dp"
+        android:background="#FF0057"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:srcCompat="#FF6E40" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="200dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/pokemonsolid"
+        android:text="PokeBio"
+        android:textAlignment="center"
+        android:textColor="#B2000000"
+        android:textSize="50.5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="200dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/pokemonsolid"
+        android:text="PokeBio"
+        android:textAlignment="center"
+        android:textColor="#448AFF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="171dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/pokemonsolid"
+        android:text="PokeBio"
+        android:textColor="#000000"
+        android:textSize="45.3sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="169dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/pokemonsolid"
+        android:text="PokeBio"
+        android:textColor="#FFFF00"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

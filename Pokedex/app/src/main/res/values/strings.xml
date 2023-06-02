@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string-array name="jeniskelamin">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+</resources>
+
